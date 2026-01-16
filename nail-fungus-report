@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Sponsored Educational Page</title>
+
+  <meta name="description" content="Sponsored educational content. For informational purposes only. Not medical advice." />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    :root { --max: 980px; }
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0f17;
+      color: #e9eef7;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 12px;
+      opacity: .9;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+
+    .card {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+
+    .hero {
+      padding: 22px 18px;
+      background: linear-gradient(135deg, rgba(88,160,255,.18), rgba(0,0,0,0));
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 26px;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: rgba(233,238,247,.9);
+      line-height: 1.5;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+      padding: 18px;
+    }
+
+    .box {
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: #2b7cff;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,.15);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .small {
+      font-size: 12px;
+      opacity: .85;
+    }
+
+    .footer {
+      padding: 14px 18px;
+      border-top: 1px solid rgba(255,255,255,.08);
+      font-size: 12px;
+      opacity: .85;
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      color: rgba(233,238,247,.78);
+    }
+
+    .spacer {
+      height: 8px;
+    }
+
+    .footer a {
+      color: rgba(233,238,247,.7);
+      text-decoration: underline;
+      font-size: 11px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrap">
+    <div class="topbar">
+      <div class="badge">Advertisement · Sponsored Educational Page</div>
+      <div class="badge">For informational purposes only</div>
+    </div>
+
+    <div class="card">
+      <div class="hero">
+        <h1>Why nail fungus can be so difficult to eliminate</h1>
+        <p>
+          This is a <strong>sponsored educational page</strong> designed to explain
+          common factors that may affect nail and skin health.
+        </p>
+      </div>
+
+      <div class="grid">
+
+        <div class="box">
+          <p><strong>What many people don’t realize:</strong></p>
+          <p class="small">
+            Moist environments, repeated exposure, footwear habits and inconsistent routines
+            may allow unwanted organisms to persist over time.
+          </p>
+        </div>
+
+        <div class="box">
+          <p><strong>Recommended next step:</strong></p>
+          <p class="small">
+            Watch the official presentation to see how this approach is discussed and
+            decide if it fits your personal research.
+          </p>
+
+          <div class="spacer"></div>
+
+          <a href="#" id="ctaBtn" class="btn" rel="nofollow noopener sponsored">
+            Continue to the Official Page
+          </a>
+
+          <div class="spacer"></div>
+
+          <div class="disclaimer">
+            Disclaimer: This content is sponsored and for informational purposes only.
+            It does not constitute medical advice. Individual results may vary.
+            Always consult a qualified professional before making health decisions.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        By continuing, you may be redirected to an external product website.<br>
+        <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ✅ APPROVED KERASSENTIALS CLICKBANK HOPLINK
+    const HOPLINK = "https://kerassentials.com/?hopId=509459f6-bed7-4e85-884b-a42629cfc736&hop=adconvertx";
+
+    const ctaBtn = document.getElementById("ctaBtn");
+
+    ctaBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.location.href = HOPLINK;
+    });
+  </script>
+
+</body>
+</html>
